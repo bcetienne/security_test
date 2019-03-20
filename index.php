@@ -7,6 +7,6 @@
     echo '<h1>Id :' . $item['index'] . '</h1>';
     echo '<h2>' . $item['name']['first'] . ' ' . $item['name']['last'] . '</h2>';
     echo '<h3>Company : ' . $item['company'] . ' </h3>';
-    echo '<button>Supprimer</button>';
+    echo '<button onClick="">Supprimer</button>';
     echo '<hr>';
   }
